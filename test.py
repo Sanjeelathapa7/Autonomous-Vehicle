@@ -1,6 +1,6 @@
 import serial
 import time
-import keyboard
+import keyboard # type: ignore
 
 # Replace 'COM3' with your Arduino's serial port
 ser = serial.Serial('COM4', 9600, timeout=1)
