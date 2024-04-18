@@ -11,11 +11,11 @@ def send_command(command):
 if __name__ == "__main__":
     try:
         while True:
-            if keyboard.is_pressed('w'):
+            if keyboard.is_pressed('s'):
                 send_command('F')
                 print("Moving forward")
                 time.sleep(0.1)
-            elif keyboard.is_pressed('s'):
+            elif keyboard.is_pressed('w'):
                 send_command('B')
                 print("Moving backward")
                 time.sleep(0.1)
